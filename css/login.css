@@ -1,0 +1,25 @@
+body{
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-galaxia-estilo-papel_23-2148985024.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.inicioBtn{
+    background-color: black;    
+}
+
+.titulo1{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.titulo{
+    color: white;
+    
+}
+
+

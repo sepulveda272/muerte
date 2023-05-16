@@ -1,0 +1,130 @@
+{
+  "empleados": [
+    {
+      "id": 1,
+      "nombre": "juan david",
+      "usuario": "sepulve",
+      "contraseña": "12345",
+      "email": "sepulveda@gmail.com"
+    },
+    {
+      "nombre": "pepe",
+      "usuario": "pepe1",
+      "contraseña": "123",
+      "email": "coso@gmail.com",
+      "id": 2
+    },
+    {
+      "nombre": "Vermen Ayala",
+      "usuario": "coso",
+      "contraseña": "159",
+      "email": "coso@gmail.com",
+      "id": 3
+    },
+    {
+      "nombre": "Vermen Ayala",
+      "usuario": "cosa",
+      "contraseña": "357",
+      "email": "coso@gmail.com",
+      "id": 4
+    },
+    {
+      "nombre": "Vermen Ayala",
+      "usuario": "rainer",
+      "contraseña": "123456",
+      "email": "coso@gmail.com",
+      "id": 5
+    },
+    {
+      "nombre": "jholver",
+      "usuario": "admin",
+      "contraseña": "159",
+      "email": "coso@gmail.com",
+      "id": 6
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "nombre": "frutas"
+    },
+    {
+      "nombre": "Juegos",
+      "id": 2
+    },
+    {
+      "nombre": "Tienda",
+      "id": 3
+    },
+    {
+      "nombre": "ropa Hombre",
+      "id": 4
+    },
+    {
+      "nombre": "ropa Femenina",
+      "id": 5
+    },
+    {
+      "nombre": "deportes",
+      "id": 6
+    }
+  ],
+  "productos": [
+    {
+      "nombre": "camisa",
+      "precio": "25000",
+      "stock": "56",
+      "categoriaId": "ropa Hombre",
+      "id": 1
+    },
+    {
+      "nombre": "empanada",
+      "precio": "2500",
+      "stock": "2",
+      "categoriaId": "Tienda",
+      "id": 2
+    }
+  ],
+  "clientes": [
+    {
+      "id": 1,
+      "cliente": "sepulveda.jpg",
+      "nombre": "juan david",
+      "direccion": "calle 20",
+      "telefono": "3184606257"
+    },
+    {
+      "imagen": "C:\\fakepath\\joel.jpg",
+      "nombre": "joel",
+      "direccion": "calle 32",
+      "telefono": "18578946",
+      "id": 2
+    }
+  ],
+  "factura": [
+    {
+      "cliente": "juan david",
+      "empleado": "pepe",
+      "fecha": "2023-02-25",
+      "producto": "camisa",
+      "cantidad": "45",
+      "id": 1
+    },
+    {
+      "cliente": "joel",
+      "empleado": "Vermen Ayala",
+      "fecha": "2021-06-15",
+      "producto": "empanada",
+      "cantidad": "5",
+      "id": 2
+    },
+    {
+      "cliente": "juan david",
+      "empleado": "Vermen Ayala",
+      "fecha": "2023-05-04",
+      "producto": "camisa",
+      "cantidad": "4",
+      "id": 3
+    }
+  ]
+}
