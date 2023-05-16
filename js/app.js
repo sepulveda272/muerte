@@ -30,7 +30,7 @@ import { getEmpleado } from "../apiConnection/API.js"
             usuarios.forEach(element => {
                 if (element.usuario === evaluo.usuario && element.contraseña === evaluo.contraseña) {
                     alert('correcto')
-                    window.location.replace("../index.html")
+                    window.location.replace("./index.html")
                 }else if(element.usuario === evaluo.usuario && element.contraseña !== evaluo.contraseña){
                     alert("contraseña incorrecta")
                 }
